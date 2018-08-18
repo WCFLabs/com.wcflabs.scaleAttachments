@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.scale_attachments_max_size"><![CDATA[Maximale Größe von Dateianhängen]]></item>
+		<item name="wcf.acp.option.scale_attachments_max_size.description"><![CDATA[Dateianhänge die Größer als diese Grenze sind, werden automatisch auf diese Größe runterskaliert.]]></item>
+	</category>
+</language>

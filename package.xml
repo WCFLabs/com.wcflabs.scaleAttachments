@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.wcflabs.scaleAttachments" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Scale Attachments]]></packagename>
+		<packagename language="de"><![CDATA[Dateianhänge skalieren]]></packagename>
+		<version>1.0.0</version>
+		<date>2018-08-18</date>
+		<license><![CDATA[GNU Lesser General Public License]]></license>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[Joshua Rüsweg]]></author>
+		<authorurl><![CDATA[https://www.wcflabs.com/]]></authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.1.4">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<compatibility>
+		<api version="2018"></api>
+	</compatibility>
+	
+	<instructions type="install">
+		<instruction type="file" />
+		<instruction type="eventListener" />
+		<instruction type="option" />
+		<instruction type="language" />
+	</instructions>
+</package>

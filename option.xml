@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/option.xsd">
+	<import>
+		<options>
+			<option name="scale_attachments_max_size">
+				<categoryname>general.system.image</categoryname>
+				<defaultvalue>1280</defaultvalue>
+				<optiontype>integer</optiontype>
+				<minvalue>1024</minvalue>
+				<suffix>pixel</suffix>
+			</option>
+		</options>
+	</import>
+</data>
